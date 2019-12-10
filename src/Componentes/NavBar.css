@@ -1,8 +1,17 @@
+.corNavBar{
+    background-color: rgb(138, 188, 24);
+}
+
 .logo-titulo{
     font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    padding-left: 15px;
 }
-.imgLogo{
-    width: 120px;
-    height: 100px;
 
+.navSessoes{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px; 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }

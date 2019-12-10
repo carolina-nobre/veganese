@@ -1,0 +1,9 @@
+.footer{
+    background-color: rgb(199, 241, 229);
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    margin: 0;  
+}
