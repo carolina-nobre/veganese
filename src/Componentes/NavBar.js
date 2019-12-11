@@ -10,10 +10,10 @@ const NavBar = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="navSessoes">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Curiosidades</Nav.Link>
-        <Nav.Link href="#link">ONG</Nav.Link>
-        <Nav.Link href="#link">Busque Receitas</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="curiosidades">Curiosidades</Nav.Link>
+        <Nav.Link href="ong">ONG</Nav.Link>
+        <Nav.Link href="busque-receitas">Busque Receitas</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

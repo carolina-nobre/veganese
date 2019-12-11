@@ -5,6 +5,7 @@ import Sessao from '../../Componentes/Sessao/index'
 import Footer from '../../Componentes/Footer'
 import './styles.css'
 import Caroseul4 from './img-home/caroseul4.jpg'
+import Cowspiracy from './img-doc/cowspiracy.jpg'
 
 
 const Home = () => (
@@ -31,15 +32,10 @@ const Home = () => (
             titulo="E o que eu vou comer?"
             texto="Hoje em dia temos diversos motivos para parar de comer carne, pelos animais, pelo ambiente e até mesmo pela sua saúde. Será que no futuro vamos dar conta de alimentar toda a população..."
         />
-        <div>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src= {Cowspiracy}/>
-                <Card.Body>
-                    <Card.Title>Terráqueos</Card.Title>
-                    
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
+        <div className="videosDoc container">
+        <iframe width="260" height="200" src="https://www.youtube.com/embed/7vpLVA0xNME?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="260" height="200" src="https://www.youtube.com/embed/7Ipx1aDqhfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="260" height="200"  src="https://www.youtube.com/embed/oDxZfVPYNNA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <Footer />
 
