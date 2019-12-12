@@ -1,9 +1,4 @@
-.card_curiosidades{
-    display: flex;
-    flex-direction: row;
-}
-
-/* .cadscuriosidades h2{
+.cadscuriosidades h2{
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
     display: flex;
@@ -20,4 +15,11 @@
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 20px;
-} */
+}
+
+.cadscuriosidades hr{
+    max-width: 100%;
+    margin-left: 0;
+    height: 5px;
+
+}

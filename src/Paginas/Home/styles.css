@@ -12,6 +12,7 @@
 .videosDoc{
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 5%;
 }
 
 .titulo-doc{
@@ -21,3 +22,4 @@
     padding-bottom: 20px;
     text-align: center; 
 }
+

@@ -1,5 +1,6 @@
 .corNavBar{
     background-color: rgb(138, 188, 24);
+    width: 100%;
 }
 
 .logo-titulo{
@@ -15,3 +16,4 @@
     justify-content: flex-end;
     width: 100%;
 }
+

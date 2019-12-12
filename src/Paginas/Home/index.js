@@ -14,9 +14,9 @@ const Home = () => (
         <NavBar />
         <div className="banner" >
             <img
-                className="img__banner mr-3"
+                className="img__banner"
                 src={Caroseul4}
-                alt="Generic placeholder"
+                alt="imagem de um porco"
             />
         </div>
         <div className="sessao-info">
@@ -32,6 +32,7 @@ const Home = () => (
             texto="Vegetariano é uma pessoa que não come mais nenhum tipo de carne mas ainda consome alguns derivados e animais e que usa produtos de origem animal. Já o vegano não consome nada de carne e nada de derivados de animais e não usa nada que testam ou que usam algum produto a base de origem animal, assim evitando ao máximo o sofrimento dos animais."
         />
         </div>
+        <hr />
         <div className="titulo-doc">
             <h3>Documentários</h3>
         </div>
