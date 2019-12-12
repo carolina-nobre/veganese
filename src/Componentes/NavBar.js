@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './NavBar.css'
 
@@ -13,7 +13,6 @@ const NavBar = () => (
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="curiosidades">Curiosidades</Nav.Link>
         <Nav.Link href="ong">ONG</Nav.Link>
-        <Nav.Link href="busque-receitas">Busque Receitas</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

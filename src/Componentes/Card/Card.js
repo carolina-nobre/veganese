@@ -1,14 +1,18 @@
-import React from 'react'
-import './Card.css'
+import React from 'react';
+import { Card } from 'react-bootstrap';
+// import './Card.css'
 
 
-function Card  (props) {
+function InfoCuri  (props) {
     return(
-        <div className="cadscuriosidades container">
-            <h2>{props.titulo}</h2>
-            <p>{props.texto}</p>
-        </div>
+        <Card>
+            <Card.Header as="h5">{props.titulo}</Card.Header>
+            <Card.Body>
+                <Card.Text>{props.texto} </Card.Text>
+            </Card.Body>
+        </Card>
+            
     )
 }
 
-export default Card;
+export default InfoCuri;

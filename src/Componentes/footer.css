@@ -1,9 +1,12 @@
 .footer{
-    background-color: rgb(199, 241, 229);
-}
-
-.footer p{
+    background-color:rgb(138, 188, 24);
+    font-family: 'Fjalla One', sans-serif; 
     display: flex;
     justify-content: center;
-    margin: 0;  
+    width: 100%;
+    margin: 0;
+}
+
+p{
+    padding-top: 10px;
 }

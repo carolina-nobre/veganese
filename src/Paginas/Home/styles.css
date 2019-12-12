@@ -4,7 +4,20 @@
     object-fit: cover;
 } 
 
-.videosDoc iframe{
-  
+.sessao-info hr{
+    max-width: 100%;
+    margin-left: 0;
+    height: 5px;
+}
+.videosDoc{
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.titulo-doc{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
 }
