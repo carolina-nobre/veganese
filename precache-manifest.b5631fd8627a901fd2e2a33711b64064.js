@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48c8bab98d0315bd9180cdb228007632",
+    "revision": "f7bf2d017e6bf3458047f927fd864590",
     "url": "/veganese/index.html"
   },
   {
-    "revision": "56460bf6ffa108794c3e",
+    "revision": "e68bb36261c304872bff",
     "url": "/veganese/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "bfeb528d3bfe8b4c3fbc",
-    "url": "/veganese/static/css/main.017e3614.chunk.css"
+    "revision": "397da428f0a1e86e603e",
+    "url": "/veganese/static/css/main.c32844ff.chunk.css"
   },
   {
-    "revision": "56460bf6ffa108794c3e",
-    "url": "/veganese/static/js/2.e9f7789d.chunk.js"
+    "revision": "e68bb36261c304872bff",
+    "url": "/veganese/static/js/2.8dbb9e41.chunk.js"
   },
   {
     "revision": "4aa0fe1eaee3dcf45338a38641d40f08",
-    "url": "/veganese/static/js/2.e9f7789d.chunk.js.LICENSE"
+    "url": "/veganese/static/js/2.8dbb9e41.chunk.js.LICENSE"
   },
   {
-    "revision": "bfeb528d3bfe8b4c3fbc",
-    "url": "/veganese/static/js/main.350270ec.chunk.js"
+    "revision": "397da428f0a1e86e603e",
+    "url": "/veganese/static/js/main.04053ef9.chunk.js"
   },
   {
     "revision": "2feeded76ba98c1ba31c",
