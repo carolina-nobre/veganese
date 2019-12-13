@@ -1,9 +1,13 @@
-import React from 'react'
-import NavBar from '../../Componentes/NavBar'
-import Sessao from '../../Componentes/Sessao/index'
-import Footer from '../../Componentes/Footer'
-import './styles.css'
-import Caroseul4 from './img-home/caroseul4.jpg'
+import React from 'react';
+import NavBar from '../../Componentes/NavBar';
+import Sessao from '../../Componentes/Sessao/index';
+import Footer from '../../Componentes/Footer';
+import './styles.css';
+import Caroseul4 from './img-home/caroseul4.jpg';
+import { Card, Button } from 'react-bootstrap';
+import Cowspiracy from './img-doc/cowspiracy.jpg'
+import Whatthehealth from './img-doc/whatthehealth.jpg';
+import Terraqueos from './img-doc/terraqueos.jpg'
 
 
 
@@ -37,9 +41,34 @@ const Home = () => (
             <h3>Documentários</h3>
         </div>
         <div className="videosDoc container">
-            <iframe width="260" height="200" src="https://www.youtube.com/embed/7vpLVA0xNME?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="260" height="200" src="https://www.youtube.com/embed/7Ipx1aDqhfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="260" height="200" src="https://www.youtube.com/embed/oDxZfVPYNNA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className="card">
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={Terraqueos} />
+                <Card.Body>
+                    <Card.Title className="titulo-doc">Terráqueos</Card.Title>
+
+                    <Card.Link href="https://www.terraqueos.org/" className="link">Assistir</Card.Link>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className="card">
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={Cowspiracy} />
+                <Card.Body>
+                    <Card.Title className="titulo-doc">Cowspiracy</Card.Title>
+                    <Card.Link href="https://www.netflix.com/br/title/80033772" className="link">Assistir</Card.Link>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className="card">
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={Whatthehealth} />
+                <Card.Body>
+                    <Card.Title className="titulo-doc">What the Health</Card.Title>
+                    <Card.Link href="https://www.netflix.com/br/title/80174177" className="link">Assistir</Card.Link>
+                </Card.Body>
+            </Card>
+            </div>
         </div>
         <Footer />
 

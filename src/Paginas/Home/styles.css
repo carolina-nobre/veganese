@@ -17,9 +17,19 @@
 
 .titulo-doc{
     font-family: 'Fjalla One', sans-serif;
-    font-size: 50px;
+    font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center; 
 }
 
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: red;
+}
+
+.card{
+    margin: auto;
+}
