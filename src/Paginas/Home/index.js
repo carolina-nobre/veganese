@@ -4,7 +4,7 @@ import Sessao from '../../Componentes/Sessao/index';
 import Footer from '../../Componentes/Footer';
 import './styles.css';
 import Caroseul4 from './img-home/caroseul4.jpg';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import Cowspiracy from './img-doc/cowspiracy.jpg'
 import Whatthehealth from './img-doc/whatthehealth.jpg';
 import Terraqueos from './img-doc/terraqueos.jpg'
